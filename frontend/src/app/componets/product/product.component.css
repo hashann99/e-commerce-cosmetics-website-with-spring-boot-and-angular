@@ -1,0 +1,97 @@
+div.title{
+  background-color: #eeeeee;
+  color: dimgray;
+  padding: 10px 5px 5px 5px;
+  text-align: center;
+
+}
+div.title h2{
+  background-color: #eeeeee;
+}
+.category section{
+  color: white;
+  margin: 0px 0px 5px 0px;
+
+
+}
+.category section ul{
+  background-color: #eeeeee;
+  display: flex;
+}
+.category section ul .item{
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 50px;
+  line-height: 40px;
+  border: 1px solid;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px ;
+  background-color: #e79fa3;
+}
+.products{
+  color: dimgray;
+  display: grid;
+  width: 100%;
+  background-color: #e79fa3;
+}
+.products .items{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.products .items .item{
+  border-radius: 5px;
+  height: 320px;
+  margin: 20px 20px 20px 20px;
+  background-color: #eeeeee;
+}
+.item-name p{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+.img img{
+  display: flex;
+  justify-content: center;
+}
+.item section .btn-cart{
+
+  margin: 5px 5px 5px 5px;
+  background-color: #fdb89b;
+  border: none;
+  width: 45%;
+  height: 35px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.item section .btn-view{
+  margin: 5px 5px 5px 5px;
+  background-color: #fcc598;
+  border: none;
+  width: 45%;
+  height: 35px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.item section .btn-buy{
+
+  margin: 5px 5px 5px 5px;
+  background-color: #fc9b9b;
+  border: none;
+  width: 95%;
+  height: 35px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.item section{
+  display: flex;
+  justify-content: center;
+}

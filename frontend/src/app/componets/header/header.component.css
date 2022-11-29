@@ -1,0 +1,76 @@
+/*                                *\
+    header section style........
+\*                                */
+
+header{
+  background-color: #de898e;
+}
+ul{
+
+  list-style-type: none;
+}
+ul li{
+
+  display: inline-block;
+  margin-right: 5px;
+
+}
+ul li span{
+  padding-right: 5px;
+  color: white;
+}
+ul li a{
+  border-right: 2px white;
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  color: #eee;
+  text-decoration: none;
+
+}
+header .links{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+/*                                *\
+    logo section style..........
+\*                                */
+.logo{
+  height: 250px;
+}
+/*                                *\
+    logo section style..........
+\*                                */
+.menu{
+  font-family: "Adobe Garamond Pro Bold";
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul{
+  justify-content: space-around;
+  list-style-type: none;
+}
+.menu ul li{
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 50px;
+
+}
+.menu ul li span{
+  padding-right: 5px;
+  color: white;
+}
+.menu ul li a{
+  border-right: 2px white;
+  color: white;
+  text-decoration: none;
+}
