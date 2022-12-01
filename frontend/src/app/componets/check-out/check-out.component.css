@@ -1,0 +1,61 @@
+.check-out{
+  border-radius: 7px;
+  background-color: #de898e;
+  font-family: "Yu Gothic UI";
+  display: flex;
+  margin: 5% 5% 5% 5%;
+}
+.check-out div{
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input{
+  border-radius: 7px;
+  width: 80%;
+  margin: 5px;
+  padding: 5px;
+  height: 40px;
+  border: none;
+}
+label{
+  font-size: 16px;
+  margin: 5px;
+}
+.btn{
+  font-weight: bold;
+  color: #eeeeee;
+  border-radius: 7px;
+  margin: 5px;
+  width: 80%;
+  background-color: #d2787b;
+  border: none;
+  height: 40px;
+  margin-top: 10px;
+  border: 2px solid;
+
+}
+.title{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+section{
+  color: white;
+
+}
+section label{
+  text-align: left;
+}
+.product-list section{
+  width: 100%;
+  display: flex;
+}
+.product-list section p{
+
+  font-size: 14px;
+  width: 100%;
+  right: 0;
+}
+

@@ -9,12 +9,12 @@
       <ul>
         <li><span><i class="bi bi-people-fill"></i></span><a href="#">Login</a><span> |</span></li>
         <li><span><i class="bi bi-send-fill"></i></span><a href="#">Registration</a><span> |</span></li>
-        <li><span><i class="bi bi-cart-check-fill"></i></span><a href="#">My Cart</a><span> |</span></li>
+        <li (click)="showMyCart()"><span><i class="bi bi-cart-check-fill"></i></span><a href="#">My Cart</a><span> |</span></li>
         <li><span><i class="bi bi-envelope-check-fill"></i></span><a href="#">Message</a></li>
       </ul>
     </div>
   </section>
-  <div class="shopping-cart">
+  <div class="shopping-cart" *ngIf="isShow">
     <div class="row">
       <h5>Milk</h5>
       <h5>Qty : 4 </h5>
@@ -71,8 +71,8 @@
       <h5></h5>
     </div>
 
-    <div class="row">
-      <button class="btn-check-out">Check Out</button>
+    <div class="row" style="border-bottom: 2px #eeeeee">
+      <button class="btn-check-out" (click)="loadCheckOutPageForPayment()">Check Out</button>
     </div>
 
   </div>

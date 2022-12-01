@@ -1,0 +1,47 @@
+.single-product{
+  display: flex;
+}
+.single-product .image{
+  border: 1px solid;
+  border-radius: 7px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.single-product .details{
+  font-family: monospace;
+  font-size: 14px;
+  color: dimgray;
+  width: 500px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.single-product .details section{
+  margin-top: 8px;
+}
+.buy{
+  margin-top: 5%;
+}
+.buy .increment-options{
+  margin-left: 5px;
+}
+.buy .increment{
+  border-radius: 7px;
+  margin: 5px 5px 5px 5px;
+  width: 40px;
+  border: none;
+  height: 40px;
+  background-color: #de898e;
+}
+.buy input{
+  height: 40px;
+}
+.btn-buy{
+
+  margin: 5px 5px 5px 5px;
+  background-color: #fc9b9b;
+  border: none;
+  width: 250px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+}

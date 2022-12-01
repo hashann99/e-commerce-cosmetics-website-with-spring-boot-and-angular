@@ -93,6 +93,14 @@ header .links{
   border-bottom: 1px solid;
   justify-content: space-evenly;
 }
+.shopping-cart .row:hover{
+  margin: 15px 5px 15px 5px;
+  padding-bottom: 5px;
+  display: flex;
+  border-bottom: 1px solid;
+  justify-content: space-evenly;
+}
+
 
 .shopping-cart .row h5{
 

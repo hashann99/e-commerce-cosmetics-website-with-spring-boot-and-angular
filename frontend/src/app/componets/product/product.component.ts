@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-product',
@@ -8,5 +9,10 @@ import { Component } from '@angular/core';
 export class ProductComponent {
 
 
+  constructor(private router:Router) {
+  }
 
+  loadWithSingleProductPage() {
+      this.router.navigateByUrl('single-product-page')
+  }
 }
