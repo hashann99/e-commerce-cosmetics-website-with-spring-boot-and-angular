@@ -10,7 +10,6 @@ export class HeaderComponent {
 
   isShow:boolean=false;
 
-
   constructor(private router:Router) {
 
   }
@@ -28,4 +27,7 @@ export class HeaderComponent {
     this.showMyCart();
   }
 
+  loadProductPage() {
+    this.router.navigateByUrl('product-page')
+  }
 }

@@ -9,7 +9,7 @@
       <ul>
         <li><span><i class="bi bi-people-fill"></i></span><a href="#">Login</a><span> |</span></li>
         <li><span><i class="bi bi-send-fill"></i></span><a href="#">Registration</a><span> |</span></li>
-        <li (click)="showMyCart()"><span><i class="bi bi-cart-check-fill"></i></span><a href="#">My Cart</a><span> |</span></li>
+        <li (click)="showMyCart()"><span><i class="bi bi-cart-check-fill"></i></span><a>My Cart</a><span> |</span></li>
         <li><span><i class="bi bi-envelope-check-fill"></i></span><a href="#">Message</a></li>
       </ul>
     </div>
@@ -84,7 +84,7 @@
       <ul>
         <li ><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
-        <li><a href="#">All Products</a></li>
+        <li><a (click)="loadProductPage()">All Products</a></li>
         <li><a href="#">Service</a></li>
         <li><a href="#">Reviews</a></li>
         <li><a href="#">Contact Us</a></li>

@@ -3,7 +3,7 @@
 \*                                */
 
 header{
-  background-color: #de898e;
+  background-color: #D43790;
 }
 ul{
 
@@ -60,6 +60,7 @@ header .links{
   list-style-type: none;
 }
 .menu ul li{
+  cursor: pointer;
   font-size: 20px;
   display: inline-block;
   margin-right: 50px;
@@ -108,7 +109,7 @@ header .links{
 }
 .btn-check-out{
   margin: 5px 5px 5px 5px;
-  background-color: #fc9b9b;
+  background-color: #D43790;
   border: none;
   width: 95%;
   height: 35px;

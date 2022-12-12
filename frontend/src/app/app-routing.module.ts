@@ -6,7 +6,7 @@ import {SingleProductPageComponent} from "./componets/single-product-page/single
 import {CheckOutComponent} from "./componets/check-out/check-out.component";
 
 const routes: Routes = [
-  {path:"product",component:ProductComponent},
+  {path:"product-page",component:ProductComponent},
   {path:"single-product-page",component:SingleProductPageComponent},
   {path:"check-out-page",component:CheckOutComponent}
 ];
